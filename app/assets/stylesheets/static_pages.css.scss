@@ -2,21 +2,11 @@
 
 .logo {
   float: center;
-  margin-right: 10px;
-  font-size: 1.7em;
-  color: white;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  padding-top: 9px;
-  font-weight: bold;
-  line-height: 1;
-  &:hover {
-    color: white;
-    text-decoration: none;
-  }
+  margin-right: 0px;
+  letter-spacing: 0px;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
-
-
 
 .navbar-fixed-top .brand {
     -moz-transition: all 0.2s linear 0s;
@@ -90,4 +80,17 @@ footer {
     text-align: right;
   }    
 }
-
+.contacts li {
+    font-size: 20px;
+    line-height: 27px;
+    padding: 0 0 10px 40px;
+}
+.contacts .email {
+    background: url("mail_pink(1).png") no-repeat scroll 0 0 transparent;
+}
+.contacts .tel {
+    background: url("phone.png") no-repeat scroll 0 0 transparent;
+}
+.contacts .skype {
+    background: url("skype.png") no-repeat scroll 0 0 transparent;
+}
